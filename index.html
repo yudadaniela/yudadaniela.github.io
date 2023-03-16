@@ -1,11 +1,161 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<title>pagina personal de yuda</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" 
+    crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="(max-width: 800px)" href="style.css" />
+    <link rel="stylesheet" media="(max-width: 500px)" href="style.css" />
+    <link rel="stylesheet" media="(max-width: 300px)" href="style.css" />
+    <title>Portafolio</title>
 </head>
 <body>
-<h1>Bienvenido</h1>
-</body>
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="#">Acerca de </a>
+                <a href="#">Trabajos</a>
+                <a href="#">Contacto</a>   
+            </nav>
+        </div>
+        <div class="contenedor-texto">
+            <div class="texto">
+                <h1 class="nombre">Daniela Nieto</h1>
+                <h2 class="profesion">Desarrolladora Web</h2>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <section class="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="img/foto c.jpg" width="115" height="115" alt="DanielaNieto">
+                </div>
+                <div class="texto">
+                    <h3 class="titulo">
+                        Acerca de 
+                    </h3>
+                    <p>Soy Ingeniera Aeronáutica y desarrolladora fontend, Decidí unirme al mundo de la tecnología en busca de nuevas oportunidades. Acabo de comenzar una carrera profesional con desarrollo front-end porque encuentro emocionante el diseño y el desarrollo de tecnología. </p>
+                </div>
 
+            </div>
+            
+        </section>
+
+        <section class="trabajos">
+            <div class="contenedor">
+                <h3 class="titulo">Trabajos</h3>
+                <div class="contenedor-trabajos">
+                    <div class="trabajo">
+
+                        <div class="tumb">
+                            <img src="img/1.jpg" alt="primer">
+
+                        </div>
+                        <div class="descripcion">
+                            <a href="https://yudadaniela.github.io/BOG005-card-validation/"class="nombre" >Card-validation</a>
+                            <p class="categoria">HTML CSS JS</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="tumb">
+                            <img src="img/2.jpg" alt="primer">
+
+                        </div>
+                        <div class="descripcion">
+                            <a href="https://yudadaniela.github.io/BOG005-data-lovers/src/"class="nombre">Data-lover</a>
+                            <p class="categoria">HTML CSS JS</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="tumb">
+                            <img src="img/3.jpg" alt="primer">
+
+                        </div>
+                        <div class="descripcion">
+                            <a href="https://bog005-socialnetwork.web.app/iniciarSesion" class="nombre">Socialnetwork</a>
+                            <p class="categoria">HTML CSS JS</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="tumb">
+                            <img src="img/4.jpg" alt="primer">
+
+                        </div>
+                        <div class="descripcion">
+                            <a href="https://www.npmjs.com/package/mdlinks-yuda"class="nombre">Md-link</a>
+                            <p class="categoria">Node.js Js</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="tumb">
+                            <img src="img/5.jpg" alt="primer">
+
+                        </div>
+                        <div class="descripcion">
+                            <a class="nombre"href="https://github.com/yudadaniela/BOG005-burger-queen-api-client">Md-link</a>
+                            <p class="categoria">HTML CSS JS</p>
+                        </div>
+                    </div>
+                    
+                    <div class="trabajo">
+                        <div class="tumb">
+                            <img src="img/7.jpg" alt="primer">
+
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Trjeta de credito</p>
+                            <p class="categoria">HTML CSS JS</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="tumb">
+                            <img src="img/8.jpg" alt="primer">
+
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Trjeta de credito</p>
+                            <p class="categoria">HTML CSS JS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </section>
+    <footer>
+      <section class="contacto">
+           <div class="contenedor">
+               <h3 class="titulo">Contacto</h3>
+           
+               
+                <form class="formulario" action="" >
+                <input type="text" placeholder="Nombre" name="nombre" required>
+                <input type="email" placeholder="Correo" name="email" required>
+                <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                <input class="boton" type="submit" value="Enviar">  
+                
+            </form>
+           </div>
+      </section>
+
+
+        <section class="redes-sociales">
+            <div class="contenedor">
+                <a href="https://www.instagram.com/?hl=es-la" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/yudadaniela" class="git"><i class="fa-brands fa-github"></i></a>
+                
+            </div>
+        </section>
+
+    </footer>
+
+
+</body>
 </html>
